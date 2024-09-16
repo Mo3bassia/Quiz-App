@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz App</h1>
+      <div class="quiz-cont">
+        <div class="info">
+          <p class="category">Category: <span>html</span></p>
+          <p class="count">Questions Count: <span></span></p>
+        </div>
+        <div class="question">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quae
+          libero dignissimos sed officiis ex optio eum ducimus, at, nihil nam,
+          quidem eveniet unde iure similique molestias maxime tempore dolores.
+        </div>
+        <ul class="choose">
+          <li>
+            <input checked type="radio" name="rad" id="one" />
+            <label for="one">Stop</label>
+          </li>
+          <li>
+            <input type="radio" name="rad" id="two" />
+            <label for="two">Stop</label>
+          </li>
+          <li>
+            <input type="radio" name="rad" id="three" />
+            <label for="three">Stop</label>
+          </li>
+          <li>
+            <input type="radio" name="rad" id="four" />
+            <label for="four">Stop</label>
+          </li>
+        </ul>
+        <button class="submit">Submit Answer</button>
+        <div class="timeInfo">
+          <div class="bubbles"></div>
+          <p class="time"><span class="timeAllowedEl"></span>s</p>
+        </div>
+
+        <div class="results disabled">
+          <span class="state"></span>, Your Answer Right:
+          <span class="trueCount"></span> From <span class="total"></span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
